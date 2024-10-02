@@ -2,4 +2,4 @@
 
 ## made by HOoMAN Hadi
 
-##### [Demo](https://hooman-hadi.github.io/404-Eror/)
+##### [Demo](https://hooman-hadi.github.io/Responsive-404-Eror/)
