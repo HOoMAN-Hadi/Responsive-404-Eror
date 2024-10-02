@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>404 Eror</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img class="header-logo" src="images/Logo.png" alt="Logo" />
+        </div>
+        <div class="menu">
+          <ul class="menu-ul">
+            <li class="menu-li"><a href="#">Home</a></li>
+            <li class="menu-li"><a href="#">About us</a></li>
+            <li class="menu-li"><a href="#">Princing</a></li>
+            <li class="menu-li"><a href="#">FAQ's</a></li>
+            <li class="menu-li"><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navmenu">
+          <div class="header_icon"></div>
+          <div class="menu_v">
+            <ul class="menu-ul">
+              <li class="menu-li"><a href="#">Home</a></li>
+              <li class="menu-li"><a href="#">About us</a></li>
+              <li class="menu-li"><a href="#">Princing</a></li>
+              <li class="menu-li"><a href="#">FAQ's</a></li>
+              <li class="menu-li"><a href="#">Contact us</a></li>
+            </ul>
+            <div class="developer part">
+              <div class="code">
+                <i class="fas fa-code icon_code"></i>
+              </div>
+              <div class="email">
+                <i class="fas fa-envelope-open icon_email"></i>
+                <h1>Email :</h1>
+                <p>h.h.0.6.6.6.1384@gmail.com</p>
+              </div>
+              <div class="tel">
+                <i class="fas fa-paper-plane icon_tel"></i>
+                <h1>Telegram :</h1>
+                <p>@HOoMAN_js</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="container_main">
+          <div class="wrapper">
+            <div class="desc">
+              <h1><span>O</span>ooops !</h1>
+              <p>We can't seem find a page you are looking for</p>
+              <button><a href="#">Back to home</a></button>
+            </div>
+            <div class="img_con">
+              <img src="images/Banner.png" alt="Banner" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+    <script>
+      const header_icon = document.querySelector(".header_icon");
+      const navmenu = document.querySelector(".navmenu");
+      header_icon.onclick = function () {
+        navmenu.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
